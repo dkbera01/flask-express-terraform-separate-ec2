@@ -1,0 +1,47 @@
+# Terraform state and backup files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Exclude .terraform directory
+.terraform/
+
+# Exclude override files
+*.override.tf
+*.override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Exclude variable files with sensitive data
+*.tfvars
+*.tfvars.json
+
+# Exclude plan output
+*.plan
+
+# Local .env files
+.env
+.env.*
+
+# Editor/OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Node/npm (if any frontend build locally)
+node_modules/
+
+# Python cache (if any local scripts)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Misc
+*.bak
